@@ -56,14 +56,14 @@ const App = () => {
           <input type="checkbox"
             defaultChecked={numAllowed}
             id="numberInput"
-            onChange={() => setnumAllowed((prev) => {!prev})}/>
+            onChange={() => setnumAllowed((prev) => !prev)}/>
             <label htmlFor="">Numbers</label>
         </div>
         <div className="flex items-center gap-x-1 w-10 ml-5">
           <input type="checkbox"
             defaultChecked={spCharAllowed}
             id="spCharInput"
-            onChange={() => setspCharAllowed((prev) => {!prev})}/>
+            onChange={() => setspCharAllowed((prev) => !prev)}/>
             <label htmlFor="">Symbols</label>
         </div>
       </div>
